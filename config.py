@@ -13,7 +13,7 @@ admins = {}
 
 SESSION_NAME = getenv("SESSION_NAME")
 
-if str(getenv("STRING_SESSION2")).strip() == "":
+if str(getenv("STRING_SESSION2")).strip() == "BQF8vgIAOf7KJ-EtMVn6HYRr31TI8im6HX_McJxjO4NTO6mwj5rNuOd0-emPoONrbaFI8HBaOK8k3IEWMMou5Dv7dKZnMgAWORItQNZIXkjxY_nRlop5MEx2kHHrOpL8_iLsfOT4UnEfcnjqHWo4OABLN7QyxqxmCcQ_yl8eaa340V_mYvGRIl47ueJvYduKI-ometpAqPzzvMJvEIH3FVoBlwmx-7741-rTVlnDV9VvePGyXyy0aDznS-_lfrdnPvNkQWCnpPcTbvAf3MUTbW_PzQhb0q449VAhlj7GSapz-RvCFN1n_p6FqI7h0b7hdtkN45xgduiaEJp9EPlWLXMyXHRgAAAAHA32nFAA":
     SESSION2 = str(None)
 else:
     SESSION2 = str(getenv("STRING_SESSION2"))
@@ -33,23 +33,23 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-BOT_NAME = getenv("BOT_NAME", "Umk")
+BOT_TOKEN = getenv("BOT_TOKEN", "8196327757:AAHF3oHConrcxGGf6cIkiv744E9mymNA1Yc")
+BOT_NAME = getenv("BOT_NAME", "Google Music")
 
-API_ID = int(getenv("API_ID", "8186557"))
-API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority")
+API_ID = int(getenv("API_ID", "24952322"))
+API_HASH = getenv("API_HASH", "04142256edaf90245ade69bb8bc6870b")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://vipinmusicbot:nKPSXHOE6YNQ9Alp@cluster0.8b6vckw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 OWNER_NAME = getenv("OWNER_NAME", "Zaid")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Timesisnotwaiting")
-ALIVE_NAME = getenv("ALIVE_NAME", "Zaid")
-BOT_USERNAME = getenv("BOT_USERNAME", "Zaid2_Robot")
-OWNER_ID = getenv("OWNER_ID", "1669178360")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Zaid2_Assistant")
+ALIVE_NAME = getenv("ALIVE_NAME", "Advik")
+BOT_USERNAME = getenv("BOT_USERNAME", "GooglexMusicBot")
+OWNER_ID = getenv("OWNER_ID", "7530834373")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Google Assistant")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "TheSupportChat")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "TheUpdatesChannel")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("UPDATES_CHANNEL", "HEROKU_API_KEY")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1669178360").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7880317040").split()))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/fc9d87ffd1c6f828eb7fc.png")
 START_PIC = getenv("START_PIC", "https://telegra.ph/file/a414e2cdfeaa7d4414b89.png")
